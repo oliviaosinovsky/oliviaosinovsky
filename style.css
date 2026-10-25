@@ -349,3 +349,14 @@ footer {
         font-size: 15px;
     }
 }
+
+/* Navigation and social buttons */
+.site-nav { display:flex; flex-wrap:wrap; gap:8px 20px; margin-bottom:36px; padding-bottom:18px; border-bottom:1px solid #dedede; }
+.site-nav a { display:inline-flex; align-items:center; min-height:44px; font-weight:500; }
+.profile-links { align-items:center; gap:12px; }
+.social-button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:8px 18px; border:1px solid #2f5d85; border-radius:6px; background:#2f5d85; color:#fff; font-weight:600; }
+.social-button:hover { background:#173c5c; color:#fff; text-decoration:none; }
+.social-button:focus-visible { outline-color:#173c5c; }
+[id] { scroll-margin-top:24px; }
+#contact a { overflow-wrap:anywhere; }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } a { transition:none; } }
